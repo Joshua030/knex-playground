@@ -1,0 +1,29 @@
+{
+  "name": "knex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec tsx src/index.ts",
+    "knex": "tsx ./node_modules/.bin/knex"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^25.3.1",
+    "eslint": "^10.0.2",
+    "globals": "^17.3.0",
+    "jiti": "^2.6.1",
+    "tsx": "^4.19.4",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.56.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "knex": "^3.1.0",
+    "pg": "^8.19.0"
+  }
+}
